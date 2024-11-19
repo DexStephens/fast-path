@@ -13,5 +13,3 @@ func (h *BaseHandler) ServeHTTP(res http.ResponseWriter, req *http.Request) {
 		return
 	}
 }
-
-func (h *BaseHandler) CreateGraph(res http.ResponseWriter, req *http.Request) {}
